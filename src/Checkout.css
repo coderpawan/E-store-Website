@@ -1,0 +1,72 @@
+html,
+body {
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.checkout {
+  margin: 30px;
+  display: flex;
+  /* height: 300px; */
+}
+.checkout_left {
+  width: 65%;
+}
+
+.checkout_title {
+  font-size: 26px;
+  font-weight: 600;
+  margin-left: 14px;
+  margin-top: 17px;
+}
+.checkout_line {
+  position: relative;
+  left: 1%;
+  top: -8px;
+}
+.checkout_right {
+  margin-left: 12px;
+  width: 40%;
+  height: 211px;
+  background-color: rgb(210, 220, 230);
+}
+.checkout_sum {
+  display: flex;
+  position: relative;
+  left: 6%;
+  top: 25px;
+}
+.NoOfItems {
+  font-size: 22px;
+}
+.checkout_sum strong {
+  font-size: 22px;
+  margin-left: 3px;
+}
+.gift {
+  display: flex;
+  position: relative;
+  left: 7%;
+  top: 40px;
+  font-size: 17px;
+}
+.check {
+  height: 27px;
+}
+.check_title {
+  margin-left: 12px;
+}
+.Proceed {
+  position: relative;
+  left: 7%;
+  top: 85px;
+  width: 420px;
+  height: 36px;
+  font-size: 19px;
+  background-color: rgb(240, 184, 111);
+  cursor: pointer;
+}
+.App {
+  background-color: rgb(252, 252, 252);
+}

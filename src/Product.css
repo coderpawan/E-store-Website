@@ -1,0 +1,40 @@
+.product {
+  background-color: rgb(253, 253, 252);
+  position: relative;
+  margin: 0 17px;
+  z-index: 1;
+}
+.product_info {
+  margin: 0 20px;
+  padding: 10px 0;
+}
+.product_description {
+  font-weight: 500;
+}
+.product_price {
+  font-size: 20px;
+  margin: 5px 0;
+}
+.product_rating {
+  display: flex;
+  padding: 2px 0;
+}
+.product_rating p {
+  margin: 0 4px;
+}
+.product_image {
+  max-height: 350px;
+  width: 100%;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+.basket {
+  max-height: 350px;
+  width: 30%;
+  object-fit: contain;
+  margin-bottom: 6%;
+  margin-left: 35%;
+  background-color: rgb(119, 224, 32);
+  border-color: black;
+  font-weight: 600;
+}

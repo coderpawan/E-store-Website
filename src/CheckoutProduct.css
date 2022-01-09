@@ -1,0 +1,35 @@
+.checkoutProduct {
+  display: flex;
+  margin: 40px 10px;
+}
+.check_image {
+  width: 400px;
+  height: 400px;
+  object-fit: contain;
+}
+.check_description {
+  font-weight: 700;
+}
+.check_info {
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+.check_price {
+  margin: 10px 0;
+}
+.check_rating {
+  display: flex;
+}
+.check_rating p {
+  margin-right: 10px;
+}
+.remove {
+  height: 30px;
+  width: 230px;
+  position: relative;
+  top: 40px;
+  background-color: rgb(238, 182, 108);
+  font-size: 15px;
+  font-weight: bolder;
+}
